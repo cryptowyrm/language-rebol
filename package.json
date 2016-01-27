@@ -1,14 +1,12 @@
 {
   "name": "language-rebol",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Syntax highlighting and snippets for Rebol, Red and Red/System",
-  "keywords": [
-  ],
+  "keywords": [],
   "repository": "https://github.com/cryptowyrm/language-rebol",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
