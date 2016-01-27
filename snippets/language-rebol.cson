@@ -1,0 +1,29 @@
+".source.rebol":
+  Context:
+    prefix: "context"
+    body: '''
+      context [
+      	${1}
+      ]
+      
+    '''
+  Func:
+    prefix: "func"
+    body: '''
+      func [${1:args}][
+      	${2:body}
+      ]
+    '''
+  Header:
+    prefix: "rebol"
+    body: '''
+      Rebol [
+      	Title: "${1:title}"
+      	Date: `date "+%e-%b-%Y"`
+      	Author: "$1"
+      ]
+      
+    '''
+  Make:
+    prefix: "make"
+    body: "make ${1:object!} [${2}]"
